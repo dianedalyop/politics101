@@ -6,7 +6,8 @@
 
 .background-image 
 {
-    
+    background-image: url("public/images/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg");
+    background-color: red;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
