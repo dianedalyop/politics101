@@ -80,29 +80,45 @@
             <div class="slider-wrapper">
                 <button id="previous-slide" class="slide-button material-symbols-outlined">arrow_back</button>
                 <div class="image-list">
-                     <div class="image-item">
-                     <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
-                     <p>Content</p>
+                       <div class="image-item">
+                        <img src="https://www.politico.com/dims4/default/6a514e4/2147483647/strip/true/crop/1160x773+0+0/resize/1290x860!/format/webp/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F4e%2Fba%2F6628199446ed91c41e4fb8296a37%2F200819-biden-getty-773.jpg" alt="alternatetext"/> 
+                        <div class="latest-content">
+                        <a href="https://edition.cnn.com/2024/03/10/politics/joe-biden-sotu-what-matters/index.html">
+                            A forceful Biden hits the road as Republicans keep focus on his age and memory
+                        </a>
+                       </div>
                        </div>
                        <div class="image-item">
-                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
-                        <p>Content</p>
+                        <img src="https://media.cnn.com/api/v1/images/stellar/prod/20240317-march-madness-split.jpg?c=16x9&q=h_438,w_780,c_fill" alt="alternatetext"/> 
+                        <div class="latest-content">
+                            <a href="https://edition.cnn.com/sport/us-sports">
+                                March Madness: Here are the top seeds for the men’s and women’s NCAA basketball tournament
+                            </a>
+                           </div>
                        </div>
                        <div class="image-item">
-                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
-                        <p>Content</p>
-                       </div>
-                       <div class="image-item">
-                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
-                        <p>Content</p>
+                        <img src="https://img.rasset.ie/001fe98f-800.jpg" alt="alternatetext"/> 
+                        <div class="latest-content">
+                            <a href="https://www.rte.ie/news/uk/2024/0315/1437996-chewing-gum-lateral-flow-tests/">
+                                UK university creates antigen tests from used chewing gum
+                            </a>
+                           </div>
                         </div>
                        <div class="image-item">
-                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
-                        <p>Content</p>
+                        <img src="https://img.businessoffashion.com/resizer/OOWt851W0uKz8zgM2o9ZgIPBFqU=/1440x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/IFVI2CJLBZH6LJO52V5XX74IVQ.jpg" alt="alternatetext"/> 
+                        <div class="latest-content">
+                            <a href="https://www.businessoffashion.com/news/sustainability/eu-backs-supply-chain-audit-law-after-italy-switches-sides/">
+                                EU Backs Supply Chain Audit Law After Italy Switches Sides
+                            </a>
+                           </div>
                        </div>
                        <div class="image-item">
-                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
-                        <p>Content</p>
+                        <img src="https://www.apa.org/images/misinformation-disinformation-tile_tcm7-306919_w1024_n.jpg" alt="alternatetext"/> 
+                        <div class="latest-content">
+                            <a href="https://www.theguardian.com/books/2024/mar/16/attack-from-within-book-dangers-of-disinformation">
+                                a worrying new book explores the danger of disinformation
+                            </a>
+                           </div>
                        </div> 
                 </div>
                 <button id="next-slide" class="slide-button material-symbols-outlined">arrow_forward</button>
