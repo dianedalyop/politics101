@@ -105,7 +105,7 @@
                         <p>Content</p>
                        </div> 
                 </div>
-                <button id="previous-slide" class="slide-button material-symbols-outlined">arrow_forward</button>
+                <button id="next-slide" class="slide-button material-symbols-outlined">arrow_forward</button>
             </div>
 
             <div class="slider-scrollbar">
