@@ -75,47 +75,53 @@
         </p>
     </div>
 
-    
-    <div class="headlines">
-        <div class="headline101">
-            <div class = "headline-img">
+    <div class="slidebody">
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="previous-slide" class="slide-button material-symbols-outlined">arrow_back</button>
+                <div class="image-list">
+                     <div class="image-item">
+                     <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
+                     <p>Content</p>
+                       </div>
+                       <div class="image-item">
+                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
+                        <p>Content</p>
+                       </div>
+                       <div class="image-item">
+                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
+                        <p>Content</p>
+                       </div>
+                       <div class="image-item">
+                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
+                        <p>Content</p>
+                        </div>
+                       <div class="image-item">
+                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
+                        <p>Content</p>
+                       </div>
+                       <div class="image-item">
+                        <img src="https://i.pinimg.com/564x/08/fb/d8/08fbd8eb35ded2e8f17930b5e979017c.jpg" alt="alternatetext"/> 
+                        <p>Content</p>
+                       </div> 
+                </div>
+                <button id="previous-slide" class="slide-button material-symbols-outlined">arrow_forward</button>
+            </div>
 
-            </div>
-            <div class ="headline-content">
-                <p>New polls</p>
-            </div>
-            
-        </div>
-        <div class="headline101">
-            <div class = "headline-img">
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb">
 
+                    </div>
+                </div>
             </div>
-            <div class ="headline-content">
-                <p>New polls</p>
-            </div>
-            
-        </div>
-        <div class="headline101">
-            <div class = "headline-img">
-
-            </div>
-            <div class ="headline-content">
-                <p>New polls</p>
-            </div>
-           
-        </div>
-        <div class="headline101">
-            <div class = "headline-img">
-
-            </div>
-            <div class ="headline-content">
-                <p>New polls</p>
-            </div>
-            
-        </div>
-        <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
     </div>
+
+    
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+    </div>
+    
     
 @endsection
