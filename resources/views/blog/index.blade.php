@@ -32,7 +32,7 @@
         <div>
             <img src="{{ asset('images/' . $post->image_path) }}" alt="">
         </div>
-        <div>
+        <div class="post101">
             <h2 class="text-gray-700 font-bold text-5xl pb-4">
                 {{ $post->title }}
             </h2>
