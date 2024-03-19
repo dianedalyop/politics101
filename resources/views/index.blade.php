@@ -18,7 +18,7 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div class="tiktok-article">
-            
+            <img src="https://live-production.wcms.abc-cdn.net.au/a7c47f877b3f390ac605491cd88a0b68?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=273&width=862&height=485" alt="alternatetext"/> 
             
         </div>
 
@@ -29,9 +29,10 @@
                 In recent years, the intersection of technology and politics has become increasingly complex,
                  with social media platforms often finding themselves under the scrutiny of lawmakers. 
             </p>
-                 <p class="py-8 text-gray-500 text-s">
+            <p class="py-8 text-gray-500 text-s">
                  One such platform that has come under intense scrutiny in the United States is TikTok, 
-                 a wildly popular app known for its short-form video content. The relationship between TikTok 
+                 a wildly popular app known for its short-form video content.
+                The relationship between TikTok 
                  and the US Congress is multifaceted,
                  revolving around concerns regarding privacy, security, and influence.
             </p>
@@ -42,24 +43,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
-        <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
-        </h2>
 
-        <span class="font-extrabold block text-4xl py-1">
-            Ux Design
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Project Management
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Backend Development
-        </span>
-    </div>
 
     <div class="text-center py-15">
         <span class="uppercase text-s text-gray-400">
@@ -71,7 +55,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            
         </p>
     </div>
 
