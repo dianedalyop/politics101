@@ -17,28 +17,28 @@
     </div>
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
-        <div>
+        <div class="tiktok-article">
+            
             
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
-            <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
-            </h2>
+            
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                In recent years, the intersection of technology and politics has become increasingly complex,
+                 with social media platforms often finding themselves under the scrutiny of lawmakers. 
+            </p>
+                 <p class="py-8 text-gray-500 text-s">
+                 One such platform that has come under intense scrutiny in the United States is TikTok, 
+                 a wildly popular app known for its short-form video content. The relationship between TikTok 
+                 and the US Congress is multifaceted,
+                 revolving around concerns regarding privacy, security, and influence.
             </p>
 
-            <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
-            </p>
+            
 
-            <a 
-                href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                Find Out More
-            </a>
+            
         </div>
     </div>
 
@@ -134,6 +134,44 @@
         </div>
     </div>
 
+    <!-- Poll Section -->
+    <div class="container mx-auto mt-10">
+        <h2 class="text-3xl font-bold mb-4">Polls</h2>
+        
+        <!-- Form for Creating a Poll -->
+        <form action="{{ route('polls.store') }}" method="POST" class="mb-6">
+
+            @csrf
+            <div class="mb-4">
+                <label for="question" class="block text-gray-700 font-bold mb-2">Poll Question:</label>
+                <input type="text" name="question" id="question" class="border-2 border-gray-300 p-2 w-full rounded-md" required>
+            </div>
+            <div class="mb-4">
+                <label for="options" class="block text-gray-700 font-bold mb-2">Poll Options (comma-separated):</label>
+                <textarea name="options" id="options" class="border-2 border-gray-300 p-2 w-full rounded-md" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create Poll</button>
+        </form>
+
+        <!-- Display Existing Polls -->
+        @if(isset($polls) && $polls->isNotEmpty())
+            <h3 class="text-xl font-bold mb-2">Existing Polls:</h3>
+            <ul>
+                @foreach($polls as $poll)
+                    <li class="mb-2">
+                        <strong>{{ $poll->question }}</strong>
+                        <ul>
+                            @foreach(json_decode($poll->options) as $option)
+                                <li>{{ $option }}</li>
+                            @endforeach
+                        </ul>
+                    </li>
+                @endforeach
+            </ul>
+        @else
+            <p>No polls available.</p>
+        @endif
+    </div>
     
     <div>
         <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
